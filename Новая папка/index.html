@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Webpage</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation-->
+    <nav class="nav-bar">
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#hobbies" class="nav-link">Hobbies</a>
+        <a href="#websites" class="nav-link">Websites</a>
+        <a href="#schedule" class="nav-link">Schedule</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- headers -->
+    <header id="header-section">
+        <h1 id="header-title">Sultan</h1>
+        <h2 class="subtitle">SE-2423</h2>
+        <h3 class="section-heading">"About Me"</h3>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <p class="paragraph-text">My name is Sultan. I don't know who I am, and I don't need to. I like the unknown.</p>
+        <p class="paragraph-text">I have a lot of misunderstandings with my parents 🥹🙁😭</p>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h3 class="section-heading">Hobbies</h3>
+        <ol class="paragraph-text">
+            <li>Playing MLBB</li>
+            <li>Listening Music</li>
+            <li>Watching Anime</li>
+            <li>Physical Exercises</li>
+        </ol>
+    </section>
+
+    <!-- Favourite websites -->
+    <section id="websites"> 
+        <h3 class="section-heading">Favourite Websites</h3>
+        <ul class="paragraph-text">
+            <li><a href="https://www.youtube.com/" target="_blank" class="custom-link">Youtube</a></li>
+            <li><a href="https://www.twitch.tv/" target="_blank" class="custom-link">Twitch</a></li>
+            <li><a href="https://royaleapi.com/" target="_blank" class="custom-link">RoyaleApi</a></li>
+            <li><a href="https://liquipedia.net/" target="_blank" class="custom-link">Liquipedia</a></li>
+        </ul>
+    </section>
+
+    <!-- Image -->
+    <figure>
+        <img src="https://i.pinimg.com/1200x/53/15/d9/5315d93083e80150eaa7e96b1c2b6e5b.jpg" 
+        class="rounded-img" alt="Baaam!">
+        <figcaption class="paragraph-text">Your next line is...</figcaption>
+    </figure>
+
+    <!-- Button -->
+    <button class="btn">Click Me</button>
+
+    <!-- Schedule Table -->
+    <section id="schedule">
+        <h3 class="section-heading">Schedule</h3>
+        <table class="table-schedule">
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Operating Systems</td>
+                <td rowspan="2">Monday</td>
+                <td>8:00-9:50</td>
+            </tr>
+            <tr>
+                <td>Design and analysis of Algorithm</td>
+                <td>12:00-12:50</td>
+            </tr>
+            <tr>
+                <td>Software Design Patterns</td>
+                <td rowspan="2">Wednesday</td>
+                <td>16:00-17:50</td>
+            </tr>
+            <tr>
+                <td>Calculus 2</td>
+                <td>18:00-19:50</td>
+            </tr>
+            <tr>
+                <td>Software Design Patterns</td>
+                <td rowspan="2">Thursday</td>
+                <td>12:00-13:50</td>
+            </tr>
+            <tr>
+                <td>Design and analysis of Algorithm</td>
+                <td>18:00-19:50</td>
+            </tr>
+            <tr>
+                <td>WEB Technologies</td>
+                <td rowspan="2">Friday</td>
+                <td>13:05-14:50</td>
+            </tr>
+            <tr>
+                <td>Design and analysis of Algorithm</td>
+                <td>15:00-15:50</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h3 class="section-heading">Contact Form</h3>
+        <form id="user-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" class="form-input"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" class="form-input"><br><br>
+
+            <label for="color">Favorite Color:</label><br>
+            <input type="color" id="color" class="form-input"><br><br>
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer-container">
+        <p class="paragraph-text">© 2025 Sultan's Webpage</p>
+    </footer>
+
+</body>
+</html>

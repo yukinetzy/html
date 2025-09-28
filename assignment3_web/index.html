@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Flexbox & Grid</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="logo">My Logo</div>
+        <nav class="nav-bar">
+            <a href="#cards">Cards</a>
+            <a href="#layout">Layout</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Flexbox Cards -->
+        <section id="cards"> 
+            <h2>Flexbox Cards</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/dexter.png" alt="Dexter">
+                    <h3>Card 1</h3>
+                    <p>Dexter Morgan</p>
+                    <button>Bay Harbor Butcher</button>
+                </div>
+                <div class="card">
+                    <img src="images/image.png" alt="Dexter Banner">
+                    <h3>Card 2</h3>
+                    <p>Dexter Banner</p>
+                    <button>Read More</button>
+                </div>
+                <div class="card">
+                    <img src="images/bryan.png" alt="Brian">
+                    <h3>Card 3</h3>
+                    <p>Brian Moser</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid Layout -->
+        <section id="layout">
+            <h2>Grid Layout</h2>
+            <div class="grid-container">
+                <div class="grid-header">Header</div>
+                <div class="grid-sidebar">Sidebar</div>
+                <div class="grid-main">Main Content</div>
+                <div class="grid-footer">Footer</div>
+            </div>
+        </section>
+
+        <!-- Image Gallery -->
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <img src="https://ru.pinterest.com/pin/22236591907683774/" alt="Gallery 1">
+                <img src="https://ru.pinterest.com/pin/22236591907683774/" alt="Gallery 2">
+                <img src="https://ru.pinterest.com/pin/675047431687111697/" alt="Gallery 3">
+                <img src="https://ru.pinterest.com/pin/9148005493910085/ alt="Gallery 4">
+            </div>
+        </section>
+
+        <!-- Portfolio Page -->
+        <section id="portfolio">
+            <h2>Portfolio Page</h2>
+            <div class="portfolio-grid">
+                <div class="projects">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>Description of project 1.</p>
+                        <button>View</button>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>Description of project 2.</p>
+                        <button>View</button>
+                    </div>
+                </div>
+                <aside class="portfolio-sidebar">
+                    <h3>About Me</h3>
+                    <p>Short description...</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Sultan's Portfolio</p>
+    </footer>
+
+</body>
+</html>
