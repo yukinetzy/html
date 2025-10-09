@@ -1,0 +1,97 @@
+/* ===== Global ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a1a1a;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #ff3c3c;
+  letter-spacing: 1px;
+}
+.nav-link {
+  color: #ddd;
+}
+.nav-link.active {
+  color: #ff3c3c;
+}
+.nav-link:hover {
+  color: #ff6f61;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #2a2a2a, #111);
+  color: #fff;
+}
+.hero-img {
+  border: 5px solid #ff3c3c;
+  width: 250px;
+  height: 250px;
+}
+.hero-title {
+  font-size: 2.8rem;
+  color: #ff3c3c;
+}
+.hero-subtitle {
+  color: #bbb;
+}
+
+/* Section Titles */
+.section-title {
+  color: #ff3c3c;
+  font-weight: 600;
+}
+
+/* About Section */
+.about-text p {
+  font-size: 1rem;
+  color: #ccc;
+}
+.about-img {
+  border: 2px solid #444;
+  max-width: 50%;
+}
+
+/* Projects Section */
+.projects {
+  background-color: #111;
+}
+.project-card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+}
+.project-card h5 {
+  color: #ff3c3c;
+}
+.project-card p {
+  color: #bbb;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* ===== Responsive Typography ===== */
+@media (max-width: 576px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+  p { font-size: 0.9rem; }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.7rem; }
+}
+@media (min-width: 993px) {
+  h1 { font-size: 2.8rem; }
+  h2 { font-size: 2rem; }
+}

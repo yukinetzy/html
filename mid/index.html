@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sultan | Bootstrap Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="fw-bold mb-3">MLBB Strongest K-name Players</h1>
+      <p class="lead mb-4">Three guys from Onic</p>
+      <button class="btn btn-primary me-2">Learn More</button>
+      <button class="btn btn-outline-secondary">Contact</button>
+    </div>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Grid</h2>
+    <div class="row mb-4">
+      <div class="col-lg-6 bg-secondary text-white p-3 text-center">Column 1</div>
+      <div class="col-lg-6 bg-dark text-white p-3 text-center">Column 2</div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-lg-4 border p-3">Kairu</div>
+      <div class="col-lg-4 border p-3">Kiboy</div>
+      <div class="col-lg-4 border p-3">KingKong</div>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Bootstrap Cards</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card 1</h5>
+            <p class="card-text">Atalykov Sultan's work.</p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card 2</h5>
+            <p class="card-text">Simple example using Bootstrap.</p>
+            <button class="btn btn-outline-secondary">Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card 3</h5>
+            <p class="card-text">Something important.</p>
+            <button class="btn btn-success">Click</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide container my-5">
+    
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <img src="/assignment4_web/assets/3.png" class="d-block w-100" alt="First">
+      </div>
+      <div class="carousel-item">
+        <img src="/assignment4_web/assets/2.png" class="d-block w-100" alt="Second">
+      </div>
+      <div class="carousel-item">
+        <img src="/assignment4_web/assets/1.png" class="d-block w-100" alt="Third">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Contact Form -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Contact Form</h2>
+    <form class="mx-auto" style="max-width: 500px;">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    © 2025 Sultan Portfolio
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
